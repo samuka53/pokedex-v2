@@ -9,7 +9,7 @@ export default function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const fetchLimit = 50;
-  const totalPokemons = 1025;
+  const totalPokemons = 151;
 
   const getSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setNavBar(event.target.value);
